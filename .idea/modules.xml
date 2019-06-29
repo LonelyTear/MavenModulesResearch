@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MavenModulesResearch.iml" filepath="$PROJECT_DIR$/MavenModulesResearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-base/demo-base.iml" filepath="$PROJECT_DIR$/demo-base/demo-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-base-code/demo-base-code.iml" filepath="$PROJECT_DIR$/demo-base-code/demo-base-code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-business/demo-business.iml" filepath="$PROJECT_DIR$/demo-business/demo-business.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-cache/demo-cache.iml" filepath="$PROJECT_DIR$/demo-cache/demo-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-main/demo-main.iml" filepath="$PROJECT_DIR$/demo-main/demo-main.iml" />
+    </modules>
+  </component>
+</project>
