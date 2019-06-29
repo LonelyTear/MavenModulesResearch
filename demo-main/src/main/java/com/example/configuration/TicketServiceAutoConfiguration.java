@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
 @ConditionalOnClass({String.class})//ITicketService.class存在时本配置才有效
 //@ConditionalOnMissingClass({"com.example.simple.service.ITicketService"})//指定类不存在的时候配置才有效
 //@EnableConfigurationProperties(TicketProperties.class)//让TicketProperties在当前配置中直接生效
-@ComponentScan(basePackages={"com.example"})
+//@ComponentScan(basePackages={"com.example"})
 public class TicketServiceAutoConfiguration {//声明自动配置类
 
 //    @Autowired

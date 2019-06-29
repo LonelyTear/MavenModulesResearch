@@ -5,8 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example.maven</groupId>
-    <artifactId>business</artifactId>
+    <artifactId>demo-business</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <name>demo-business</name>
 
     <parent>
         <groupId>com.example.maven</groupId>

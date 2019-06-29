@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16d3bc11-11eb-485c-a94c-b3c5cf48208e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/HeroProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-base/demo-base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-base/demo-base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-business/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-business/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-main/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-main/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-main/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/demo-dao/target/" />
     <ignored path="$PROJECT_DIR$/demo-service/target/" />
@@ -90,41 +91,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="1-SNAPSHOT" value="1" />
+          <entry key="1-SNAPSHOT" value="2" />
           <entry key="class" value="2" />
           <entry key="iml" value="1" />
-          <entry key="java" value="6" />
-          <entry key="xml" value="9" />
-          <entry key="yml" value="2" />
+          <entry key="java" value="14" />
+          <entry key="xml" value="15" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="6" />
-          <entry key="UML" value="1" />
-          <entry key="XML" value="9" />
-          <entry key="YAML" value="2" />
+          <entry key="JAVA" value="14" />
+          <entry key="UML" value="2" />
+          <entry key="XML" value="15" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="85" />
-          <entry key="xml" value="20" />
+          <entry key="java" value="103" />
+          <entry key="xml" value="55" />
           <entry key="yml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="85" />
-          <entry key="XML" value="20" />
+          <entry key="JAVA" value="103" />
+          <entry key="XML" value="55" />
           <entry key="YAML" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
         <counts>
-          <entry key="git.branch.checkout.local" value="1" />
+          <entry key="git.branch.checkout.local" value="2" />
           <entry key="git.branch.compare" value="1" />
         </counts>
       </usages-collector>
@@ -135,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="189">
+              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -144,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/controller/DogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="105">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -153,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+            <state relative-caret-position="336">
+              <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -163,10 +164,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/HeroProperties.java">
+        <entry file="file://$PROJECT_DIR$/demo-business/src/main/java/com/example/controller/HeroController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="252">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-business/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-cache/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -183,8 +205,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="-245">
+              <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo-main/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -194,15 +225,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo-main/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -247,7 +269,6 @@
         <option value="$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/DogServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/Dog.java" />
         <option value="$PROJECT_DIR$/demo-base-code/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-business/pom.xml" />
         <option value="$PROJECT_DIR$/demo-business/src/main/java/com/example/service/DemoServiceImpl.java" />
         <option value="$PROJECT_DIR$/demo-business/src/main/java/com/example/service/dao/DemoRepository.java" />
         <option value="$PROJECT_DIR$/demo-business/src/main/java/com/example/dao/DemoRepository.java" />
@@ -260,12 +281,13 @@
         <option value="$PROJECT_DIR$/demo-cache/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/controller/Hero2Controller.java" />
         <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/controller/DogController.java" />
-        <option value="$PROJECT_DIR$/demo-base/pom.xml" />
         <option value="$PROJECT_DIR$/demo-cache/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java" />
-        <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java" />
         <option value="$PROJECT_DIR$/demo-main/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/demo-base/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java" />
+        <option value="$PROJECT_DIR$/demo-business/pom.xml" />
         <option value="$PROJECT_DIR$/demo-main/pom.xml" />
       </list>
     </option>
@@ -328,68 +350,6 @@
             <path>
               <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
               <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
-              <item name="demo-business" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="example" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
               <item name="demo-cache" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -449,6 +409,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MavenModulesResearch" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-main" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="configuration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MavenModulesResearch" type="b2602c69:ProjectViewProjectNode" />
@@ -534,11 +505,11 @@
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="1092" />
-    <property name="RequestMappingsPanelWidth1" value="1092" />
+    <property name="RequestMappingsPanelWidth0" value="1097" />
+    <property name="RequestMappingsPanelWidth1" value="1097" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561813711214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561819259563" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -649,8 +620,12 @@
         <item itemvalue="Spring Boot.MainEntrance" />
         <item itemvalue="Spring Boot.MainEntrance" />
         <item itemvalue="Spring Boot.MainEntrance" />
+        <item itemvalue="Spring Boot.MainEntrance" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpringBootEndpointsTabSettings">
+    <option name="selectedTab" value="mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -666,16 +641,24 @@
       <workItem from="1561808503312" duration="1859000" />
       <workItem from="1561810944348" duration="240000" />
     </task>
+    <task id="LOCAL-00001" summary="调整maven的pom.xml">
+      <created>1561813722295</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561813722295</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6410000" />
+    <option name="totallyTimeSpent" value="7093000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25397456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15659778" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -697,7 +680,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.53276134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -795,99 +778,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-base/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-business/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-business/src/main/java/com/example/controller/HeroController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MavenModulesResearch.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-cache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/maven/repo_rosellete/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/context/ApplicationListener.class">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://D:/maven/repo_rosellete/org/yaml/snakeyaml/1.23/snakeyaml-1.23.jar!/org/yaml/snakeyaml/constructor/BaseConstructor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
           <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-main/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/controller/DogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/Hero.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/HeroProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -971,17 +871,181 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="2316.0895019319605" y="922.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="2316.0" y="923.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/HeroProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-base/src/main/java/com/example/bean/Hero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-main/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/demo:demo-main:0.0.1-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>demo:demo-main:0.0.1-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">demo:demo-main:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.example.maven:demo-base-code:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">com.example.maven:demo-base-code:jar:0.0.1-SNAPSHOT/com.example.maven:demo-base:jar:0.0.1-SNAPSHOT</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot:jar:2.1.6.RELEASE/org.springframework:spring-context:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.apache.logging.log4j:log4j-to-slf4j:jar:2.11.2/org.apache.logging.log4j:log4j-api:jar:2.11.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:2.1.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/javax.annotation:javax.annotation-api:jar:1.3.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.springframework:spring-core:jar:5.1.8.RELEASE/org.springframework:spring-jcl:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter:jar:2.1.6.RELEASE/org.yaml:snakeyaml:jar:1.23</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.9.9/com.fasterxml.jackson.core:jackson-core:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-actuator-autoconfigure:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/io.micrometer:micrometer-core:jar:1.1.5</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/io.micrometer:micrometer-core:jar:1.1.5/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:2.1.6.RELEASE/io.micrometer:micrometer-core:jar:1.1.5/org.latencyutils:LatencyUtils:jar:2.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.6.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.9.9</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:2.1.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:9.0.21</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/javax.validation:validation-api:jar:2.0.1.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/org.jboss.logging:jboss-logging:jar:3.3.2.Final</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.17.Final/com.fasterxml:classmate:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-web:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-web:jar:5.1.8.RELEASE/org.springframework:spring-beans:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-aop:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-web:jar:2.1.6.RELEASE/org.springframework:spring-webmvc:jar:5.1.8.RELEASE/org.springframework:spring-expression:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:2.1.6.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/net.minidev:json-smart:jar:2.3/net.minidev:accessors-smart:jar:1.2/org.ow2.asm:asm:jar:5.0.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.4.0/org.slf4j:slf4j-api:jar:1.7.26</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.assertj:assertj-core:jar:3.11.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/net.bytebuddy:byte-buddy-agent:jar:1.9.13</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.mockito:mockito-core:jar:2.23.4/org.objenesis:objenesis:jar:2.6</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.skyscreamer:jsonassert:jar:1.5.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.springframework:spring-test:jar:5.1.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:2.1.6.RELEASE/org.xmlunit:xmlunit-core:jar:2.6.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.3537771129394166" x="1995.5" y="646.5" />
           <SelectedNodes />
           <Categories />
           <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/controller/DogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-base/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/configuration/TicketServiceAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-business/src/main/java/com/example/controller/HeroController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-main/src/main/java/com/example/MainEntrance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="15" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-business/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="62" lean-forward="true" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo-main/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="441">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
         </state>
       </provider>
     </entry>

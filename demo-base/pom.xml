@@ -11,12 +11,12 @@
     <name>demo-base</name>
     <description>Demo project for Spring Boot</description>
 
-    <parent>
-        <groupId>com.example.maven</groupId>
-        <artifactId>MavenModulesResearch</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
-    </parent>
+    <!--<parent>-->
+        <!--<groupId>com.example.maven</groupId>-->
+        <!--<artifactId>MavenModulesResearch</artifactId>-->
+        <!--<version>0.0.1-SNAPSHOT</version>-->
+        <!--<relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
+    <!--</parent>-->
 
     <dependencies>
 
