@@ -11,11 +11,13 @@
     <name>demo-main</name>
     <description>Demo project for Spring Boot</description>
 
+    <properties>
+    </properties>
+
     <parent>
         <groupId>com.example.maven</groupId>
         <artifactId>MavenModulesResearch</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <dependencies>
@@ -25,10 +27,17 @@
             <artifactId>demo-base-code</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+
         <dependency>
             <groupId>com.example.maven</groupId>
             <artifactId>demo-business</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.example.maven</groupId>
+            <artifactId>demo-elk</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

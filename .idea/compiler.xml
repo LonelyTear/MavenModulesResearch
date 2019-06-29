@@ -10,6 +10,7 @@
         <module name="demo-base-code" />
         <module name="demo-business" />
         <module name="demo-cache" />
+        <module name="demo-elk" />
         <module name="demo-main" />
       </profile>
     </annotationProcessing>
@@ -19,6 +20,7 @@
       <module name="demo-business" target="1.8" />
       <module name="demo-cache" target="1.8" />
       <module name="demo-cache2" target="1.8" />
+      <module name="demo-elk" target="1.8" />
       <module name="demo-main" target="1.8" />
       <module name="MavenModulesResearch" target="1.8" />
     </bytecodeTargetLevel>

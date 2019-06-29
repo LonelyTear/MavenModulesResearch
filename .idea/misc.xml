@@ -7,11 +7,12 @@
         <option value="$PROJECT_DIR$/demobase/pom.xml" />
         <option value="$PROJECT_DIR$/business/pom.xml" />
         <option value="$PROJECT_DIR$/demo-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/elk/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/demo-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-elk/pom.xml" />
       </set>
     </option>
   </component>

@@ -15,11 +15,15 @@
         <groupId>com.example.maven</groupId>
         <artifactId>MavenModulesResearch</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.example.maven</groupId>
+            <artifactId>demo-base</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <!-- 添加 demo-base 的依赖 -->
         <!--<dependency>-->
         <!--<groupId>org.springframework.boot</groupId>-->

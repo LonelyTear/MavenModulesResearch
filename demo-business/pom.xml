@@ -6,7 +6,7 @@
 
     <groupId>com.example.maven</groupId>
     <artifactId>demo-business</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>demo-business</name>
 
@@ -14,7 +14,6 @@
         <groupId>com.example.maven</groupId>
         <artifactId>MavenModulesResearch</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
     <dependencies>
