@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:cache="http://www.springframework.org/schema/cache" xmlns="http://www.springframework.org/schema/beans"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+    http://www.springframework.org/schema/cache    http://www.springframework.org/schema/cache/spring-cache.xsd">
+
+
+	<bean id="concurrentMapCacheService" class="com.example.service.ConcurrentMapCacheServiceImpl">
+		<property name="appleComponent">
+			<ref bean="appleComponent" />
+		</property>
+		<property name="pealComponent">
+			<ref bean="pealComponent" />
+		</property>
+	</bean>
+
+	<bean id="appleComponent" class="com.example.component.AppleComponent" ></bean>
+	<bean id="pealComponent" class="com.example.component.PealComponent" ></bean>
+
+</beans>
